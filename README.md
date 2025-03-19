@@ -20,5 +20,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut arcu ac diam e
 ## Histórico de versões
 
 * 0.0.1
-    * [Work in progress] Java classe in development, pending cleanup and formatting.
+    * [Work in progress] Java classes in development, pending cleanup and formatting.
 

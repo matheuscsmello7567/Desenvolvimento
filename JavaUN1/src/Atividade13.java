@@ -4,6 +4,7 @@
  * . Para homens: (72.7*h) - 58
  * a. Para mulheres: (62.1*h) - 44.7 (h = altura)
  * b. Peça o peso da pessoa e informe se ela está dentro, acima ou abaixo do peso.
+ * Variáveis: double[peso, altura];
  */
 import java.util.Scanner;
 
@@ -11,13 +12,13 @@ public class Atividade13 {
 
     public static void calculaPesoMasc(double height){
         double peso;
-        peso = (72.7 * height) - 58;        
+        peso = (72.7 * height) - 58;
         System.out.printf("O seu peso ideal é: %.1f", peso);
     }
 
     public static void calculaPesoFem(double height){
         double peso;
-        peso = (62.1 * height) - 44.7;        
+        peso = (62.1 * height) - 44.7;
         System.out.printf("O seu peso ideal é: %.1f", peso);
     }
     

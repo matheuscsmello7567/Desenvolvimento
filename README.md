@@ -21,4 +21,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut arcu ac diam e
 
 * 0.0.1
     * [Work in progress] Java classes in development, pending cleanup and formatting.
+* 0.0.2
+    * [Work in progress] Java classes in development, pending cleanup and formatting, added Method storage for reuse.
 

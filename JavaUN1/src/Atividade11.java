@@ -11,11 +11,11 @@ import java.util.Scanner;
 
 public class Atividade11 {
 
-    private static void LimpaTela() {
+    public static void LimpaTela() {
         {
             System.out.print("\033[H\033[2J");
             System.out.flush();
-            System.out.println("Tela limpa!");
+            //System.out.println("Tela limpa!");
         }
     }
     

@@ -22,22 +22,20 @@ public class Atividade13 {
     }
     
     @SuppressWarnings("ConvertToTryWithResources")
-    public static void main (String Args){
+    public static void main (String[] Args){
         double altura;
         int opcao;
-        
         Scanner scan = new Scanner(System.in);
+        
         System.out.println("Calculo de peso ideal");
-
         System.out.printf("\n\tDigite a sua altura: ");
         altura = scan.nextDouble();
 
-        System.out.printf("\n\tEscolha o seu gênero: ");
+        System.out.printf("\tEscolha o seu gênero: ");
+        System.out.println("\n\t1. Masculino ");
+        System.out.println("\t2. Feminino ");
+
         opcao = scan.nextInt();
-
-        System.out.printf("\n\t1. Masculino ");
-        System.out.printf("\n\t2. Feminino ");
-
         switch (opcao){
             case 1 -> {
                 calculaPesoMasc(altura);
@@ -46,6 +44,7 @@ public class Atividade13 {
                 calculaPesoFem(altura);
             }
         }
+
         scan.close();
     }
 

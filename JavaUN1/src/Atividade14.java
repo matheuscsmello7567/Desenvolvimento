@@ -31,7 +31,7 @@ public class Atividade14 {
         double peso;
         Scanner scan = new Scanner(System.in);
 
-        Atividade11.LimpaTela();
+        Methods.LimpaTela();
         System.out.println("Insira o peso total da mercadoria");
         System.out.printf("\tPeso: ");
 
